@@ -21,11 +21,11 @@ while true; do
     read -p "Would you like to merge the gh-pages to the master branch?:  `echo $'\n> '`" yn
     case $yn in
         [Yy]* )
-          git checkout origin/gh-pages;
+          git checkout gh-pages;
           git pull;
           git checkout master;
           git pull
-          git merge origin/gh-pages;
+          git merge gh-pages;
           git add -A;
           git commit -m 'merging gh-pages to master';
           git push;
