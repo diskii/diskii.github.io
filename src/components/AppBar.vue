@@ -27,25 +27,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="head-title">Works</h2>
-                        <a href="images/project-1.png" class="gallery image-popup-link text-center"
-                           style="background-image: url(../../public/images/project-1.png);">
-                            <span><i class="icon-search3"></i></span>
-                        </a>
-                        <a href="images/project-2.png" class="gallery image-popup-link text-center"
-                           style="background-image: url(../../public/images/project-2.png);">
-                            <span><i class="icon-search3"></i></span>
-                        </a>
-                        <a href="images/project-3.png" class="gallery image-popup-link text-center"
-                           style="background-image: url(../../public/images/project-3.png);">
-                            <span><i class="icon-search3"></i></span>
-                        </a>
-                        <a href="images/work-4.jpg" class="gallery image-popup-link text-center"
-                           style="background-image: url(../../public/images/work-4.jpg);">
-                            <span><i class="icon-search3"></i></span>
-                        </a>
+                        <div v-for="item in works" v-bind:key="item.name">
+                            <a :href="'/images/'+item.img" class="gallery image-popup-link text-center"
+                               v-bind:style="{ 'background-image': 'url(' +'/images/'+ item.img + ')' }">
+                                <span><i class="icon-search3"></i></span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
 </template>
+<script>
+    import worksJson from "../assets/json/works"
+
+    export default {
+        data() {
+            return {
+                works: worksJson
+            }
+        }
+    }
+</script>
