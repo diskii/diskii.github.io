@@ -8,13 +8,8 @@
                             <div class="col-md-10">
                                 <h2>Let's Talk</h2>
                                 <p>Web developer based in Tokyo</p>
-                                <p><a href="#">jeffrey.young0514@gmail.com</a></p>
-                                <p class="colorlib-social-icons">
-                                    <a href="#"><i class="icon-facebook4"></i></a>
-                                    <a href="#"><i class="icon-twitter3"></i></a>
-                                    <a href="#"><i class="icon-googleplus"></i></a>
-                                    <a href="#"><i class="icon-dribbble2"></i></a>
-                                </p>
+                                <p><router-link to="/contact">jeffrey.young0514@gmail.com</router-link></p>
+                                <SocialIcons></SocialIcons>
                             </div>
                         </div>
                     </div>
@@ -59,12 +54,18 @@
     </footer>
 </template>
 <script>
+    import SocialIcons from './SocialIcons';
+
+
     let currentYear = new Date().getFullYear();
     export default {
         data() {
             return {
                 currentYear: currentYear
             }
+        },
+        components: {
+            SocialIcons
         }
     }
 </script>

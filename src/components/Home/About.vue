@@ -33,13 +33,10 @@
                                 <h2 class="heading">About</h2>
                             </div>
                             <p>Currently a Ruby on rails Web Developer located in Tokyo, Japan.</p>
-                            <p class="colorlib-social-icons">
-                                <a href="#"><i class="icon-facebook4"></i></a>
-                                <a href="#"><i class="icon-twitter3"></i></a>
-                                <a href="#"><i class="icon-googleplus"></i></a>
-                                <a href="#"><i class="icon-dribbble2"></i></a>
+                            <SocialIcon></SocialIcon>
+                            <p>
+                                <router-link to="/contact" class="btn btn-primary btn-outline">Contact Me! </router-link>
                             </p>
-                            <p><a href="#" class="btn btn-primary btn-outline">Contact Me!</a></p>
                         </div>
                     </div>
                 </div>
@@ -47,3 +44,11 @@
         </div>
     </div>
 </template>
+<script>
+    import SocialIcon from '../SocialIcons'
+    export default {
+        components: {
+            SocialIcon
+        }
+    }
+</script>

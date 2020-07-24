@@ -11,7 +11,8 @@
     "core-js": "^3.6.5",
     "owl.carousel": "^2.3.4",
     "vue": "^2.6.11",
-    "vue-owl-carousel": "^2.0.3"
+    "vue-owl-carousel": "^2.0.3",
+    "vue-router": "^3.3.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",

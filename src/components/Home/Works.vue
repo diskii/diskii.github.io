@@ -42,7 +42,7 @@
 </template>
 
 <script>
-    import worksJson from "../assets/json/works"
+    import worksJson from "../../assets/json/works"
 
     export default {
         data() {

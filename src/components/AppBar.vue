@@ -16,11 +16,11 @@
                     <div class="col-md-12">
                         <ul>
                             <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="work.html">Work</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><router-link to="contact">Contact</router-link></li>
                         </ul>
                     </div>
                 </div>
