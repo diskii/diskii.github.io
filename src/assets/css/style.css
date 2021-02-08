@@ -1064,6 +1064,11 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
 .owl-nav {
     text-align: center;
 }
+@media screen and (max-width: 767px) {
+    .owl-nav {
+        display: none;
+    }
+}
 
 .owl-prev {
     display: inline-block;
