@@ -447,7 +447,7 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
 #colorlib-progress,
 #colorlib-contact,
 #colorlib-about {
-    padding: 10em 0;
+    padding: 2em 0;
     clear: both;
     position: relative;
 }
@@ -461,7 +461,7 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
     #colorlib-progress,
     #colorlib-contact,
     #colorlib-about {
-        padding: 5em 0;
+        padding: 1em 0;
     }
 }
 
@@ -1680,7 +1680,7 @@ input[type="text"] {
 }
 
 #footer {
-    padding: 8em 0;
+    padding: 2em 0;
     display: block;
     width: 100%;
 }
