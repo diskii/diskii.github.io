@@ -37,6 +37,11 @@
                             <p>
                                 <router-link to="/contact" class="btn btn-primary btn-outline">Contact Me! </router-link>
                             </p>
+                            <p>
+                                <a class="btn btn-primary btn-outline" href="Jeffrey_Young_resume.pdf" target="_blank">
+                                    <i class="icon-file-pdf color--red"></i> Resume!
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -52,3 +57,13 @@
         }
     }
 </script>
+<style lang="scss">
+    .owl-carousel3 {
+        .item {
+            max-height: 350px;
+        }
+    }
+    .color--red {
+        color: #ff0000
+    }
+</style>

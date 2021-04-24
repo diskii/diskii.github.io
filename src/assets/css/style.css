@@ -1747,3 +1747,7 @@ input[type="text"] {
 .js .animate-box {
     opacity: 0;
 }
+
+.pa-2 {
+    padding: 4px;
+}

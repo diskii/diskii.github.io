@@ -18,3 +18,5 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
+echo 'Deploy completed, deleting dist folder'
+rm -rf dist
