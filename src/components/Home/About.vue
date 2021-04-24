@@ -60,7 +60,7 @@
 <style lang="scss">
     .owl-carousel3 {
         .item {
-            max-height: 350px;
+            max-height: 450px;
         }
     }
     .color--red {
