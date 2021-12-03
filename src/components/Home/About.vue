@@ -32,7 +32,7 @@
                             <div class="rotate">
                                 <h2 class="heading">About</h2>
                             </div>
-                            <p>Currently a Ruby on rails Web Developer located in Tokyo, Japan.</p>
+                            <p>Currently a Golang Full-Stack Developer located in Tokyo, Japan.</p>
                             <SocialIcon></SocialIcon>
                             <p>
                                 <router-link to="/contact" class="btn btn-primary btn-outline">Contact Me! </router-link>
